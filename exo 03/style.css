@@ -1,0 +1,22 @@
+.identity fieldset, .identity legend{
+    background-color: #2574a9;
+}
+.livraison fieldset, .livraison legend{
+    background-color: #9a12b3;
+}
+.payment-info fieldset, .payment-info legend{
+    background-color: #db0a5b;
+}
+input{
+    width: 300px;
+}
+.radio01 input {
+    width: 1rem;
+}
+.radio01{
+    display: flex;
+    flex-direction: column;
+}
+.radio-label{
+    padding-left: 2rem;
+}
