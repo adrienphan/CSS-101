@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap');
+* {
+    font-family: 'Arima Madurai', cursive;
+    font-size: .9rem;
+    text-align: center;
+    line-height: 3.5rem;
+    color: #fff;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    padding: 0;    
+    margin: 0;
+    width: 8rem;  
+    height: 5rem;  
+}
+.black{
+    color: #000;
+}
+.grey{
+    background-color: #e5e5e5;
+}
+.yoga{
+    background-color: #009bcc;
+}
+.biking{
+    background-color: #96c21f;
+}
+.stretching{
+    background-color: #11bcaf;
+}
+.cardio{
+    background-color: #7459ad;
+}
+.self-defense{
+    background-color: #e65686;
+}
+.crossfit{
+    background-color: #ec6b05;
+}
+.boxe{
+    background-color: #d9006b;
+}
+.empty{
+    background-image: url('./src/stripes.png');
+}
+.striped td{
+    height: 2rem;
+    line-height: 2.5rem;
+}
